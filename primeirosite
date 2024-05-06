@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minha Loja de Produtos</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Produtos</a>
+        <a href="#">Contato</a>
+    </nav>
+    <div class="container">
+        <div class="product">
+            <h2>Produto 1</h2>
+            <p>Descrição do Produto 1.</p>
+            <p>R$ 99,99</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <h2>Produto 2</h2>
+            <p>Descrição do Produto 2.</p>
+            <p>R$ 149,99</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <h2>Produto 3</h2>
+            <p>Descrição do Produto 3.</p>
+            <p>R$ 199,99</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Contato: contato@minhalojadeprodutos.com</p>
+    </footer>
+</body>
+</html>
